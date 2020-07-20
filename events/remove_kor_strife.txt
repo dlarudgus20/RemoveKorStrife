@@ -1,0 +1,17 @@
+namespace = remove_kor_strife
+
+country_event = {
+    id = remove_kor_strife.1
+    title = "remove_kor_strife.1.t"
+    desc = "remove_kor_strife.1.d"
+    trigger = {
+        has_country_modifier = kor_factional_upheaval
+    }
+    mean_time_to_happen = {
+        months = 400
+    }
+    option = {
+        name = remove_kor_strife.1.A
+        remove_country_modifier = kor_factional_upheaval
+    }
+}

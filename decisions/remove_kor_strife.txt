@@ -1,0 +1,18 @@
+country_decisions = {
+    remove_kor_strife = {
+        potential = {
+            has_country_modifier = kor_factional_upheaval
+        }
+        allow = {
+            has_country_modifier = kor_factional_upheaval
+        }
+        effect = {
+            country_event = {
+                id = remove_kor_strife.1
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
